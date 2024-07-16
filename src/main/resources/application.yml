@@ -1,0 +1,10 @@
+spring:
+    application:
+        name: 'DreamTracker'
+
+    datasource:
+        url: jdbc:postgresql://localhost:5432/dreamtracker
+        username: dev-user
+        password: dev-password
+server:
+    port: 5555
